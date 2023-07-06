@@ -1,0 +1,121 @@
+:root {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    background-color: black;
+    color: #7DF9FF;
+}
+
+body {
+    max-width: 750px;
+    min-width: fit-content;
+    margin: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+#faceIcon {
+    filter: invert(1);
+    width: 2rem;
+    height: 100%;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    max-width: 100%;
+}
+
+.shadow__btn {
+    padding: 5px 10px;
+    margin: 0.25rem;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .shadow__btn {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+  }
+
+#expandedinfo-el {
+    height: 100rem;
+}
+
+#infoLinks {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#infoLinks > button {
+    flex: 1;
+    margin: 0.5rem;
+}
+
+#infoLinks h3 {
+    padding: 1rem;
+}
+
+
+#projectsContainer{
+    display: flex;
+    flex-direction: column;
+}
+#projectsContainer > div {
+    display: flex;
+}
+
+#projectShowcase, #projectDescription {
+    margin: 0.5rem;
+    border: 1px solid #7DF9FF;
+    border-radius: 1rem;
+}
+
+#projectShowcase {
+    flex: 1;
+    height: 10rem;
+}
+#projectDescription {
+    flex: 2;
+    height: 20rem;
+}
+
+p {
+    padding-top: 1rem;
+}
+
+main h1, h2 {
+    font-weight: 500;
+}
+
+main {
+    font-size: x-large;
+    width: 35rem;
+    align-items: center;
+    margin: auto;    
+}
+
+hr {
+    border-color:#7DF9FF;
+    width: 20rem;
+}
+
+#favicon {
+    margin-top: 200rem;
+}
